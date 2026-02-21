@@ -1,0 +1,25 @@
+{
+  "name": "use-super-query",
+  "version": "1.0.0",
+  "description": "A robust, high-quality, large-scale-ready custom React hooks mini-library: data fetching with cache, retries, SWR, focus/online refetch, optimistic updates, and devtools events.",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "typecheck": "tsc --noEmit",
+    "example": "echo 'Use a React sandbox to import from src'"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "typescript": ">=5.0.0"
+  }
+}
